@@ -12,8 +12,8 @@ try:
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Teju@8978",
-        database="chatbot_system"
+        password="your dtabase password",
+        database="chatbotsystem"
     )
 
     cursor = db.cursor()
